@@ -2,19 +2,24 @@
   "name": "ticket_booking_system",
   "version": "1.0.0",
   "description": "",
+  "homepage": "https://github.com/shishirbindu1/ticket_booking_system#readme",
+  "bugs": {
+    "url": "https://github.com/shishirbindu1/ticket_booking_system/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shishirbindu1/ticket_booking_system.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node src/app.js -e js,hbs",
-    "dev": "nodemon src/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch"
   },
-  "author": "shishir",
-  "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.20.2",
-    "express": "^4.18.2",
-    "hbs": "^4.2.0",
-    "mongoose": "^7.5.0",
-    "nodemon": "^3.0.1"
+    "@tailwindcss/cli": "^4.3.3",
+    "express": "^5.2.1",
+    "tailwindcss": "^4.3.3"
   }
 }
