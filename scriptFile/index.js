@@ -1,6 +1,7 @@
 import movies from "./data.js";
 
 const movieSection= document.querySelector('.movieSection')
+
 function cardMovie(movie) {
   const card = document.createElement("div");
   card.className= "border border-gray-200"
@@ -32,7 +33,7 @@ function cardMovie(movie) {
       <div class="grid grid-cols-2 gap-3">
 
         <button
-          class="watch-btn rounded-lg bg-black px-4 py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
+          class="buyNow-btn rounded-lg bg-black px-4 py-3 text-sm font-semibold text-white transition hover:bg-gray-800"
           data-id="${movie.id}"
         >
           Buy Now
@@ -54,5 +55,12 @@ function displayMovie(){
     })
 
 }
+
+movieSection.addEventListener('click',(e)=>{
+  if(e.target.classList.contains('buyNow-btn')){
+    const movieId = e.target.dataset.id;
+    console.log(movieId)
+  }
+})
 
 displayMovie()
