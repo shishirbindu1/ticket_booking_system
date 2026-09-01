@@ -9,6 +9,8 @@ const movies = [
     rating: "5 ",
     price: 250,
     showTime: ["10:00 AM", "1:30 PM", "4:45 PM", "8:00 PM"],
+    showDate:['1 sep', '2 sep','3 sep'],
+
   },
   {
     id: 2,
@@ -20,6 +22,8 @@ const movies = [
     rating: "5 ",
     price: 500,
     showTime: ["10:00 AM", "1:30 PM", "4:45 PM", "8:00 PM"],
+    showDate:['1 sep', '2 sep','3 sep'],
+
 
   },
   {
@@ -32,6 +36,7 @@ const movies = [
     rating: "5 ",
     price: 300,
     showTime: ["10:00 AM", "1:30 PM", "4:45 PM", "8:00 PM"],
+    showDate:['1 sep', '2 sep','3 sep'],
   },
 ];
 
