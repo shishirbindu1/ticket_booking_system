@@ -59,8 +59,17 @@ function displayMovie(){
 movieSection.addEventListener('click',(e)=>{
   if(e.target.classList.contains('buyNow-btn')){
     const movieId = e.target.dataset.id;
-    console.log(movieId)
+    
+    window.location.href = `booking.html?id=${movieId}`
   }
 })
+
+
+
+
+
+
+
+
 
 displayMovie()
