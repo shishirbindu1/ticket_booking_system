@@ -8,8 +8,35 @@ const movies = [
     genre: "documentary",
     rating: "5 ",
     price: 250,
-    showTime: ["10:00 AM", "1:30 PM", "4:45 PM", "8:00 PM"],
-    showDate:['1 sep', '2 sep','3 sep'],
+    shows: [
+      // September 1
+      {
+        date: "1 sep",
+        time: "10:00 AM",
+        hall: "Hall 1",
+        price: 500
+      },
+      {
+        date: "1 sep",
+        time: "4:45 PM",
+        hall: "Hall 2",
+        price: 600
+      },
+    
+      // September 2
+      {
+        date: "2 sep",
+        time: "1:30 PM",
+        hall: "Hall 1",
+        price: 500
+      },
+      {
+        date: "2 sep",
+        time: "8:00 PM",
+        hall: "Hall 3",
+        price: 700
+      }
+    ]
 
   },
   {
@@ -21,8 +48,35 @@ const movies = [
     genre: "lovestorey",
     rating: "5 ",
     price: 500,
-    showTime: ["10:00 AM", "1:30 PM", "4:45 PM", "8:00 PM"],
-    showDate:['1 sep', '2 sep','3 sep'],
+    shows: [
+      // September 1
+      {
+        date: "1 sep",
+        time: "10:00 AM",
+        hall: "Hall 1",
+        price: 500
+      },
+      {
+        date: "1 sep",
+        time: "4:45 PM",
+        hall: "Hall 2",
+        price: 600
+      },
+    
+      // September 2
+      {
+        date: "2 sep",
+        time: "1:30 PM",
+        hall: "Hall 1",
+        price: 500
+      },
+      {
+        date: "2 sep",
+        time: "8:00 PM",
+        hall: "Hall 3",
+        price: 700
+      }
+    ]
 
 
   },
@@ -35,8 +89,35 @@ const movies = [
     genre: "lovestorey",
     rating: "5 ",
     price: 300,
-    showTime: ["10:00 AM", "1:30 PM", "4:45 PM", "8:00 PM"],
-    showDate:['1 sep', '2 sep','3 sep'],
+    shows: [
+      // September 1
+      {
+        date: "1 sep",
+        time: "10:00 AM",
+        hall: "Hall 1",
+        price: 500
+      },
+      {
+        date: "1 sep",
+        time: "4:45 PM",
+        hall: "Hall 2",
+        price: 600
+      },
+    
+      // September 2
+      {
+        date: "2 sep",
+        time: "1:30 PM",
+        hall: "Hall 1",
+        price: 500
+      },
+      {
+        date: "2 sep",
+        time: "8:00 PM",
+        hall: "Hall 3",
+        price: 700
+      }
+    ]
   },
 ];
 
