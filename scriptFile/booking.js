@@ -368,7 +368,7 @@ movieSeatContainer.addEventListener("click", (e) => {
     </p>
 
     <p>
-      Total:
+      Total
       Rs. ${totalPrice}
     </p>
   `;
